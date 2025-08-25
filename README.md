@@ -35,6 +35,12 @@ The implicit content detection task consists of identifying the presence of ques
 
 ## Subtask 2. Implicit classification
 
+The implicits classification task involves a binary distinction between implicature and presupposition. These two labels can be briefly defined as follows:
+- **Implicature** refers to the mechanism through which a meaning not explicitly stated or expressed is suggested. As the content is inferred by the recipients themselves, they are often less aware that it has been conveyed to them, and they are less likely to question it. As an instance of content implicitness, implicatures induce the addressee to extract further, unexpressed meanings from what is said.
+- **Presupposition** refers to the mechanism by which a piece of information is presented as if the recipients were already familiar with it. Because it is framed as shared knowledge, recipients are led to take it for granted and are therefore less likely to critically evaluate it. As an instance of responsibility implicitness, presuppositions attribute responsibility for the content also to the addressee.
+
+This subtask is applied to the subset of 1,800 excerpts containing implicit content and is split into training, development, and test sets. Predictions will be evaluated through the F1-score.
+
 |classes | total | train | dev | test |
 |:-----|-------|-------|-----|------|
 | implicatures | 900   | 600   | 100 | 200  |
@@ -42,6 +48,13 @@ The implicit content detection task consists of identifying the presence of ques
 | **total** | **1800** | **1200** | **200** | **400** |
 
 ## Subtask 3. Implicatures classification
+
+The implicatures classification task is applied to a subset of 900 excerpts, which must be categorized into one of three types: particularized conversational, generalized conversational, or conventional implicatures.
+- **Particularized Conversational Implicatures**: In line with Grice’s theoretical framework, conversational implicatures are defined as those arising when the speaker deliberately (or seemingly deliberately) challenges one of the four conversational maxims derived from the Cooperative Principle. More specifically, in this type of implicature, the intended inference depends on particular features of the specific context of the utterance, which occur as one-off inferences and are not generalizable across different situations. 
+- **Generalized Conversational Implicatures**: Like the previous category, these generalized implicatures are conversational. For these, the hearer assumes that the speaker is obeying the maxims; they only depend on what the speaker has said and on general assumptions regarding cooperative communication. They do not require specific contextual knowledge for interpretation.
+- **Conventional Implicatures**: They do not depend on the context of utterance (e.g., communicative situation, conversational goals, or adherence to the Cooperative Principle) but are rather stably associated with the conventional meaning of certain expressions. Their interpretation requires knowledge of the lexical or grammatical item from which they arise. 
+
+Data are split into training, development, and test sets. Predictions will be evaluated through the macro F1-score.
 
 |classes | total | train | dev | test |
 |:-----|-------|-------|-----|------|
