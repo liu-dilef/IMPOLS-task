@@ -32,7 +32,7 @@ The implicit content detection task consists of identifying the presence of ques
 | no_implicit | 1800  | 1200  | 200 | 400  |
 | **total** | **3600** | **2400** | **400** | **800** |
 
-### Examples
+#### Examples
 
 Excerpt with implicit content:
 > Recuperiamo, recuperiamo ciascuna componente con la sua identità, il meglio delle nostre tradizioni, di quella socialista e comunista, di quella cattolico-popolare, di quella laica e repubblicana. **I nostri partiti sono altra cosa rispetto ai loro antecedenti storici, le forze schierate da questa parte rappresentano la rottura più conseguente col vecchio sistema politico e di potere.**  
@@ -58,7 +58,7 @@ This subtask is applied to the subset of 1,800 excerpts containing implicit cont
 | presuppositions  | 900   | 600   | 100 | 200  |
 | **total** | **1800** | **1200** | **200** | **400** |
 
-### Examples
+#### Examples
 
 An example of implicature, along with its explanation:
 > Questa non è una crisi qualsiasi, è la fine del grande imbroglio italiano che dura da ben 15 anni. È stato un imbroglio il golpe mediatico-giudiziario che ha portato al governo del Paese con la forza e la violenza **chi, dopo il crollo del muro di Berlino, è stato sconfitto dalla storia**.  
@@ -88,7 +88,7 @@ Data are split into training, development, and test sets. Predictions will be ev
 | conventional impl. | 300   | 150   | 50  | 100  |
 | **total** | **900** | **450** | **150** | **300** |
 
-### Examples
+#### Examples
 
 An example of conventional implicature, along with its explanation:
 > I partiti presentavano, con un programma, quello che volevano fare prima delle elezioni; poi, una volta al governo, facevano tutt'altro.  La Legge Fornero non era in nessun programma elettorale, nessun italiano l'ha mai votata. **Il Jobs Act non era in nessun programma, eppure l'hanno fatto**.  
