@@ -38,7 +38,7 @@ Excerpt with implicit content:
 > Recuperiamo, recuperiamo ciascuna componente con la sua identità, il meglio delle nostre tradizioni, di quella socialista e comunista, di quella cattolico-popolare, di quella laica e repubblicana. **I nostri partiti sono altra cosa rispetto ai loro antecedenti storici, le forze schierate da questa parte rappresentano la rottura più conseguente col vecchio sistema politico e di potere.**
 > (Giorgio Napolitano, 1996)
 >
-> *Implica che le attuali forze di centro-sinistra siano migliori rispetto ai propri antecedenti. (Explanations are reported in these examples for a better task understanding, but will not be provided in the challenge.)*
+> *Implica che le attuali forze di centro-sinistra siano migliori rispetto ai propri antecedenti. (NOTE that explanations are reported in these examples for a better task understanding, but will not be provided in the challenge.)*
 
 Excerpt without implicit content:
 > Resterò vicino al cimento e agli sforzi dell’ Italia e degli italiani, con infinita gratitudine per quel che ho ricevuto in questi quasi 9 anni non soltanto di riconoscimenti legati al mio ruolo, non soltanto di straordinarie occasioni di allargamento delle mie esperienze, anche internazionali, **ma per quel che ho ricevuto soprattutto di espressioni di generosa fiducia e costante sostegno, di personale affetto, direi, da parte di tantissimi italiani che ho incontrato o comunque sentito vicini**.    
@@ -57,6 +57,13 @@ This subtask is applied to the subset of 1,800 excerpts containing implicit cont
 | implicatures | 900   | 600   | 100 | 200  |
 | presuppositions  | 900   | 600   | 100 | 200  |
 | **total** | **1800** | **1200** | **200** | **400** |
+
+An example of implicature, along with its explanation:
+> Questa non è una crisi qualsiasi, è la fine del grande imbroglio italiano che dura da ben 15 anni. È stato un imbroglio il golpe mediatico-giudiziario che ha portato al governo del Paese con la forza e la violenza **chi, dopo il crollo del muro di Berlino, è stato sconfitto dalla storia**.
+> (Stefania Craxi, 2007)
+> *Implica che la sinistra sia stata sconfitta dalla storia*
+
+
 
 ## Subtask 3. Implicatures classification
 
