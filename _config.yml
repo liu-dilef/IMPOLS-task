@@ -1,5 +1,5 @@
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme 
-title: IMPOLS task
-description: IMplicit contents in POLitical Speech task @ EVALITA2026
+title: [IMPOLS task]
+description: [IMplicit contents in POLitical Speech task @ EVALITA2026]
