@@ -27,6 +27,8 @@ Data are extracted from public speeches freely available on YouTube. Labels used
 The implicit content detection task consists of identifying the presence of questionable implicit content in speech excerpts. It is applied the full dataset of 3,600 excerpts split into training, development, and test sets. Predictions will be evaluated through the F1-score.
 
 | Training set | Dev set | Test set |
+|:-------------|:-------:|---------:|
+
 
 
 ## Subtask 2. Implicit classification
