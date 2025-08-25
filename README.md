@@ -107,3 +107,22 @@ An example of conventional implicature, along with its explanation:
 > (Luigi Di Maio, 2018)
 >
 > *Implica che tutti i governi dovrebbero rispettare i programmi elettorali, che non dovrebbero fare niente che non sia scritto nel programma elettorale.*
+
+## References
+
+- Bianchi, C. (2011). *Pragmatica del linguaggio*. Bari: Gius. Laterza & Figli Spa.
+- Cominetti, F., Gregori, L., Lombardi Vallauri, E., Panunzi, A., & altri. (2022). IMPAQTS: un corpus di discorsi politici italiani annotato per gli impliciti linguistici. In *Corpora e Studi linguistici. Atti del LIV Congresso della Società di Linguistica Italiana (Online, 8–10 settembre 2021), a cura di Emanuela Cresti e Massimo Moneglia*. Milano: Officinaventuno, 151–164.
+- Cominetti, F., Gregori, L., Vallauri, E. L., & Panunzi, A. (2024). IMPAQTS: A multimodal corpus of parliamentary and other political speeches in Italy (1946–2023), annotated with implicit strategies. In *Proceedings of the IV Workshop on Creating, Analysing, and Increasing Accessibility of Parliamentary Corpora (ParlaCLARIN) @ LREC-COLING 2024*, 101–109.
+- Garassino, D., Brocca, N., & Masia, V. (2022). Is implicit communication quantifiable? A corpus-based analysis of British and Italian political tweets. *Journal of Pragmatics, 194*, 9–22.
+- Grice, H. P. (1975). *Logic and conversation*. London: University College London Press.
+- Hu, J., Floyd, S., Jouravlev, O., Fedorenko, E., & Gibson, E. (2023, July). A fine-grained comparison of pragmatic language understanding in humans and language models. In A. Rogers, J. Boyd-Graber, & N. Okazaki (Eds.), *Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)* (pp. 4194–4213). Toronto, Canada: Association for Computational Linguistics. https://doi.org/10.18653/v1/2023.acl-long.230
+- Huguet Cabot, P.-L., Dankers, V., Abadi, D., Fischer, A., & Shutova, E. (2020, November). The pragmatics behind politics: Modelling metaphor, framing and emotion in political discourse. In T. Cohn, Y. He, & Y. Liu (Eds.), *Findings of the Association for Computational Linguistics: EMNLP 2020* (pp. 4479–4488). Online: Association for Computational Linguistics. https://doi.org/10.18653/v1/2020.findings-emnlp.402
+- Jeretic, P., Warstadt, A., Bhooshan, S., & Williams, A. (2020). Are natural language inference models IMPPRESsive? Learning implicature and presupposition. *arXiv preprint arXiv:2004.03066*.
+- Kim, Z. M., Taylor, D. E., & Kang, D. (2023). "Is the Pope Catholic?" Applying chain-of-thought reasoning to understanding conversational implicatures. *arXiv preprint arXiv:2305.13826*.
+- Li, L., Li, J., Chen, C., Gui, F., Yang, H., Yu, C., Wang, Z., Cai, J., Zhou, J. A., Shen, B., & altri. (2024). Political-LLM: Large language models in political science. *arXiv preprint arXiv:2412.06864*.
+- Lombardi Vallauri, E. (2016). The "exaptation" of linguistic implicit strategies. *SpringerPlus, 5*(1), 1106. https://doi.org/10.1186/s40064-016-2788-y
+- Németh, R. (2023). A scoping review on the use of natural language processing in research on political polarization: Trends and research prospects. *Journal of Computational Social Science, 6*(1), 289–313.
+- Paci, W., Panunzi, A., & Pezzelle, S. (2025, July). They want to pretend not to understand: The limits of current LLMs in interpreting implicit content of political discourse. In W. Che, J. Nabende, E. Shutova, & M. T. Pilehvar (Eds.), *Findings of the Association for Computational Linguistics: ACL 2025* (pp. 15569–15593). Vienna, Austria: Association for Computational Linguistics. https://aclanthology.org/2025.findings-acl.804/
+- Sravanthi, S., Doshi, M., Tankala, P., Murthy, R., Dabre, R., & Bhattacharyya, P. (2024, August). PUB: A Pragmatics Understanding Benchmark for Assessing LLMs' Pragmatics Capabilities. In L.-W. Ku, A. Martins, & V. Srikumar (Eds.), *Findings of the Association for Computational Linguistics: ACL 2024* (pp. 12075–12097). Bangkok, Thailand: Association for Computational Linguistics. https://doi.org/10.18653/v1/2024.findings-acl.719
+- Zheng, Z., Qiu, S., Fan, L., Zhu, Y., & Zhu, S.-C. (2021). Grice: A grammar-based dataset for recovering implicature and conversational reasoning. In *Findings of the Association for Computational Linguistics: ACL-IJCNLP 2021* (pp. 2074–2085).
+
