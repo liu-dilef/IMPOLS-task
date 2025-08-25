@@ -90,12 +90,6 @@ Data are split into training, development, and test sets. Predictions will be ev
 
 #### Examples
 
-An example of conventional implicature, along with its explanation:
-> I partiti presentavano, con un programma, quello che volevano fare prima delle elezioni; poi, una volta al governo, facevano tutt'altro.  La Legge Fornero non era in nessun programma elettorale, nessun italiano l'ha mai votata. **Il Jobs Act non era in nessun programma, eppure l'hanno fatto**.  
-> (Luigi Di Maio, 2018)
->
-> *Implica che tutti i governi dovrebbero rispettare i programmi elettorali, che non dovrebbero fare niente che non sia scritto nel programma elettorale.*
-
 An example of particularized conversational implicature, along with its explanation:
 > Chi non la voleva capire non l'ha capita, eppure il significato è chiaro, non è la politica sottobanco che voglio fare, non è la politica sottobanco che appassiona le persone come voi, come noi. E nemmeno i patti dell'amministrazione con i poteri forti che innalzano quartieri in mezzo al nulla **invece di realizzare servizi e trasporti che rendono la vita più semplice ai nostri cittadini**.  
 > (Ignazio Marino, 2013)
@@ -108,3 +102,8 @@ An example of generalized conversational implicature, along with its explanation
 >
 > *Implica che molti di quelli che sostengono di essere a favore dell'eutanasia non lo siano veramente.*
 
+An example of conventional implicature, along with its explanation:
+> I partiti presentavano, con un programma, quello che volevano fare prima delle elezioni; poi, una volta al governo, facevano tutt'altro.  La Legge Fornero non era in nessun programma elettorale, nessun italiano l'ha mai votata. **Il Jobs Act non era in nessun programma, eppure l'hanno fatto**.  
+> (Luigi Di Maio, 2018)
+>
+> *Implica che tutti i governi dovrebbero rispettare i programmi elettorali, che non dovrebbero fare niente che non sia scritto nel programma elettorale.*
