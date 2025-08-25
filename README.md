@@ -58,6 +58,8 @@ This subtask is applied to the subset of 1,800 excerpts containing implicit cont
 | presuppositions  | 900   | 600   | 100 | 200  |
 | **total** | **1800** | **1200** | **200** | **400** |
 
+### Examples
+
 An example of implicature, along with its explanation:
 > Questa non è una crisi qualsiasi, è la fine del grande imbroglio italiano che dura da ben 15 anni. È stato un imbroglio il golpe mediatico-giudiziario che ha portato al governo del Paese con la forza e la violenza **chi, dopo il crollo del muro di Berlino, è stato sconfitto dalla storia**.  
 > (Stefania Craxi, 2007)
@@ -85,6 +87,8 @@ Data are split into training, development, and test sets. Predictions will be ev
 | generalized conversational impl.  | 300   | 150   | 50  | 100  |
 | conventional impl. | 300   | 150   | 50  | 100  |
 | **total** | **900** | **450** | **150** | **300** |
+
+### Examples
 
 An example of conventional implicature, along with its explanation:
 > I partiti presentavano, con un programma, quello che volevano fare prima delle elezioni; poi, una volta al governo, facevano tutt'altro.  La Legge Fornero non era in nessun programma elettorale, nessun italiano l'ha mai votata. **Il Jobs Act non era in nessun programma, eppure l'hanno fatto**.  
