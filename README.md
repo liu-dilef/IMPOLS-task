@@ -28,7 +28,7 @@ The implicit content detection task consists of identifying the presence of ques
 
 
 |classes  | total | train | dev | test |
-|----------|-------|-------|-----|------|
+|:---------|-------|-------|-----|------|
 | implicit | 1800  | 1200  | 200 | 400  |
 | no_implicit | 1800  | 1200  | 200 | 400  |
 | **total** | **3600** | **2400** | **400** | **800** |
@@ -36,7 +36,7 @@ The implicit content detection task consists of identifying the presence of ques
 ## Subtask 2. Implicit classification
 
 |classes | total | train | dev | test |
-|------|-------|-------|-----|------|
+|:-----|-------|-------|-----|------|
 | implicatures | 900   | 600   | 100 | 200  |
 | presuppositions  | 900   | 600   | 100 | 200  |
 | **total** | **1800** | **1200** | **200** | **400** |
@@ -44,7 +44,7 @@ The implicit content detection task consists of identifying the presence of ques
 ## Subtask 3. Implicatures classification
 
 |classes | total | train | dev | test |
-|------|-------|-------|-----|------|
+|:-----|-------|-------|-----|------|
 | particularized conversational impl. | 300   | 150   | 50  | 100  |
 | generalized conversational impl.  | 300   | 150   | 50  | 100  |
 | conventional impl. | 300   | 150   | 50  | 100  |
