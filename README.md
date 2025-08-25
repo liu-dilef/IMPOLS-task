@@ -26,12 +26,25 @@ Data are extracted from public speeches freely available on YouTube. Labels used
 ## Subtask 1. Implicit content detection
 The implicit content detection task consists of identifying the presence of questionable implicit content in speech excerpts. It is applied the full dataset of 3,600 excerpts split into training, development, and test sets. Predictions will be evaluated through the F1-score.
 
-
 |classes  | total | train | dev | test |
 |:---------|-------|-------|-----|------|
 | implicit | 1800  | 1200  | 200 | 400  |
 | no_implicit | 1800  | 1200  | 200 | 400  |
 | **total** | **3600** | **2400** | **400** | **800** |
+
+### Examples
+
+Excerpt with implicit content:
+
+Recuperiamo, recuperiamo ciascuna componente con la sua identità, il meglio delle nostre tradizioni, di quella socialista e comunista, di quella cattolico-popolare, di quella laica e repubblicana. **I nostri partiti sono altra cosa rispetto ai loro antecedenti storici, le forze schierate da questa parte rappresentano la rottura più conseguente col vecchio sistema politico e di potere.**
+(Giorgio Napolitano, 1996)
+
+*Implica che le attuali forze di centro-sinistra siano migliori rispetto ai propri antecedenti.}\footnote{Explanations are reported in these examples for a better task understanding, but will not be provided in the challenge.*
+
+Excerpt without implicit content:
+
+Resterò vicino al cimento e agli sforzi dell’ Italia e degli italiani, con infinita gratitudine per quel che ho ricevuto in questi quasi 9 anni non soltanto di riconoscimenti legati al mio ruolo, non soltanto di straordinarie occasioni di allargamento delle mie esperienze, anche internazionali, **ma per quel che ho ricevuto soprattutto di espressioni di generosa fiducia e costante sostegno, di personale affetto, direi, da parte di tantissimi italiani che ho incontrato o comunque sentito vicini**.    
+(Giorgio Napolitano, 2014)
 
 ## Subtask 2. Implicit classification
 
