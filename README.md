@@ -27,7 +27,7 @@ Data are extracted from public speeches freely available on YouTube. Labels used
 The implicit content detection task consists of identifying the presence of questionable implicit content in speech excerpts. It is applied the full dataset of 3,600 excerpts split into training, development, and test sets. Predictions will be evaluated through the F1-score.
 
 
-| classes  | total | train | dev | test |
+|classes  | total | train | dev | test |
 |----------|-------|-------|-----|------|
 | implicit | 1800  | 1200  | 200 | 400  |
 | no_implicit | 1800  | 1200  | 200 | 400  |
@@ -35,7 +35,7 @@ The implicit content detection task consists of identifying the presence of ques
 
 ## Subtask 2. Implicit classification
 
-| classes | total | train | dev | test |
+|classes | total | train | dev | test |
 |------|-------|-------|-----|------|
 | implicatures | 900   | 600   | 100 | 200  |
 | presuppositions  | 900   | 600   | 100 | 200  |
@@ -43,7 +43,7 @@ The implicit content detection task consists of identifying the presence of ques
 
 ## Subtask 3. Implicatures classification
 
-| classes | total | train | dev | test |
+|classes | total | train | dev | test |
 |------|-------|-------|-----|------|
 | particularized conversational impl. | 300   | 150   | 50  | 100  |
 | generalized conversational impl.  | 300   | 150   | 50  | 100  |
