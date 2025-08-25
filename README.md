@@ -65,7 +65,7 @@ An example of implicature, along with its explanation:
 > *Implica che la sinistra sia stata sconfitta dalla storia*
 
 An example of presupposition, along with its explanation:
-> Queste sono le prime elezioni veramente libere di tutto il Dopoguerra, perché per la prima volta si vota liberi dalla paura del Comunismo che aveva condizionato tanta parte della vita politica italiana dal 45' in poi, e che aveva condizionato soprattutto le scelte del mondo cattolico.  Oggi si può votare dunque secondo coscienza, **non più turandosi il naso come tante volte aveva dovuto fare tanta parte dell' elettorato**, anche di sentimenti nazionali.
+> Queste sono le prime elezioni veramente libere di tutto il Dopoguerra, perché per la prima volta si vota liberi dalla paura del Comunismo che aveva condizionato tanta parte della vita politica italiana dal 45' in poi, e che aveva condizionato soprattutto le scelte del mondo cattolico.  Oggi si può votare dunque secondo coscienza, **non più turandosi il naso come tante volte aveva dovuto fare tanta parte dell' elettorato**, anche di sentimenti nazionali.  
 > (Pino Rauti, 1990)
 >
 > *Presuppone che tanta parte dell'elettorato abbia dovuto votare turandosi il naso.*
@@ -85,3 +85,22 @@ Data are split into training, development, and test sets. Predictions will be ev
 | generalized conversational impl.  | 300   | 150   | 50  | 100  |
 | conventional impl. | 300   | 150   | 50  | 100  |
 | **total** | **900** | **450** | **150** | **300** |
+
+An example of conventional implicature, along with its explanation:
+> I partiti presentavano, con un programma, quello che volevano fare prima delle elezioni; poi, una volta al governo, facevano tutt'altro.  La Legge Fornero non era in nessun programma elettorale, nessun italiano l'ha mai votata. **Il Jobs Act non era in nessun programma, eppure l'hanno fatto**.  
+> (Luigi Di Maio, 2018)
+>
+> *Implica che tutti i governi dovrebbero rispettare i programmi elettorali, che non dovrebbero fare niente che non sia scritto nel programma elettorale.*
+
+An example of particularized conversational implicature, along with its explanation:
+> Chi non la voleva capire non l'ha capita, eppure il significato è chiaro, non è la politica sottobanco che voglio fare, non è la politica sottobanco che appassiona le persone come voi, come noi. E nemmeno i patti dell'amministrazione con i poteri forti che innalzano quartieri in mezzo al nulla **invece di realizzare servizi e trasporti che rendono la vita più semplice ai nostri cittadini**.  
+> (Ignazio Marino, 2013)
+>
+> *Implica che l'amministrazione Alemanno non abbia realizzato alcun servizio o trasporto che rendesse la vita più semplice ai cittadini.*
+
+An example of generalized conversational implicature, along with its explanation:
+> E allora, alla scelta di dire "no" all'eutanasia, si accompagna la scelta di dire "sì" alla medicina palliativa, "sì" ad una compagnia che aiuti ad affrontare in modo umano la morte. Ultima cosa, il paziente ha diritto alla protezione contro il dolore. **Molti credono di essere a favore dell'eutanasia** perché non sopportano l'idea di morire in mezzo a terribili sofferenze, o di veder morire tra terribili sofferenze una persona amata.  
+> (Rocco Buttiglione, 2011)
+>
+> *Implica che molti di quelli che sostengono di essere a favore dell'eutanasia non lo siano veramente.*
+
