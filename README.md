@@ -1,22 +1,3 @@
-<div class="sidebar">
-  <a href="/" class="sidebar-button active">
-    <span class="icon">🏠</span> Home
-  </a>
-  <a href="/publications" class="sidebar-button">
-    <span class="icon">📄</span> Publications
-  </a>
-  <a href="/talks" class="sidebar-button">
-    <span class="icon">📊</span> Talks & Conferences
-  </a>
-  <a href="/cv" class="sidebar-button">
-    <span class="icon">📑</span> CV
-  </a>
-</div>
-
-<div style="margin-left:220px; padding:1em;">
-
-
-
 ## Task description
 The task IMPOLS focuses on the automatic recognition of implicit content in political speech. Given an utterance in a context, we ask participants to develop a system capable of detecting and classifying the implicit contents that are non-*bona fide* true: these are implicit, questionable contents that are not conveyed in good faith but are still understood as true, albeit non-explicitly, within a given context. This kind of content is widely employed in political communication as a strategic tool to convey messages implicitly, thereby enabling the transmission of potentially manipulative content without overt expression.
 
@@ -144,5 +125,3 @@ An example of conventional implicature, along with its explanation:
 - Paci, W., Panunzi, A., & Pezzelle, S. (2025, July). They want to pretend not to understand: The limits of current LLMs in interpreting implicit content of political discourse. In W. Che, J. Nabende, E. Shutova, & M. T. Pilehvar (Eds.), *Findings of the Association for Computational Linguistics: ACL 2025* (pp. 15569–15593). Vienna, Austria: Association for Computational Linguistics. https://aclanthology.org/2025.findings-acl.804/
 - Sravanthi, S., Doshi, M., Tankala, P., Murthy, R., Dabre, R., & Bhattacharyya, P. (2024, August). PUB: A Pragmatics Understanding Benchmark for Assessing LLMs' Pragmatics Capabilities. In L.-W. Ku, A. Martins, & V. Srikumar (Eds.), *Findings of the Association for Computational Linguistics: ACL 2024* (pp. 12075–12097). Bangkok, Thailand: Association for Computational Linguistics. https://doi.org/10.18653/v1/2024.findings-acl.719
 - Zheng, Z., Qiu, S., Fan, L., Zhu, Y., & Zhu, S.-C. (2021). Grice: A grammar-based dataset for recovering implicature and conversational reasoning. In *Findings of the Association for Computational Linguistics: ACL-IJCNLP 2021* (pp. 2074–2085).
-
-</div>
