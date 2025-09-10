@@ -6,6 +6,7 @@
 - [Subtask 2. Implicit classification](#subtask-1-implicit-classification)
 - [Subtask 3. Implicatures classification](#subtask-3-implicatures-classification)
 - [References](#references)
+- [Organizers and Contacts](#organizers-and-contacts)
 
 
 ## Task description
@@ -135,3 +136,10 @@ An example of conventional implicature, along with its explanation:
 - Paci, W., Panunzi, A., & Pezzelle, S. (2025, July). They want to pretend not to understand: The limits of current LLMs in interpreting implicit content of political discourse. In W. Che, J. Nabende, E. Shutova, & M. T. Pilehvar (Eds.), *Findings of the Association for Computational Linguistics: ACL 2025* (pp. 15569–15593). Vienna, Austria: Association for Computational Linguistics. https://aclanthology.org/2025.findings-acl.804/
 - Sravanthi, S., Doshi, M., Tankala, P., Murthy, R., Dabre, R., & Bhattacharyya, P. (2024, August). PUB: A Pragmatics Understanding Benchmark for Assessing LLMs' Pragmatics Capabilities. In L.-W. Ku, A. Martins, & V. Srikumar (Eds.), *Findings of the Association for Computational Linguistics: ACL 2024* (pp. 12075–12097). Bangkok, Thailand: Association for Computational Linguistics. https://doi.org/10.18653/v1/2024.findings-acl.719
 - Zheng, Z., Qiu, S., Fan, L., Zhu, Y., & Zhu, S.-C. (2021). Grice: A grammar-based dataset for recovering implicature and conversational reasoning. In *Findings of the Association for Computational Linguistics: ACL-IJCNLP 2021* (pp. 2074–2085).
+
+## Organizers and Contacts
+
+- Lorenzo Gregori, University of Florence, lorenzo.gregori@unifi.it
+- Walter Paci, University of Florence, walter.paci@unifi.it
+- Valentina Saccone, University of Florence, valentina.saccone@unifi.it
+
