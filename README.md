@@ -40,6 +40,7 @@ The dataset used for this task contains 2,637 excerpts from IMPAQTS, divided in 
 
 Data are extracted from public speeches freely available on YouTube. Labels used in the tasks refer exclusively to implicit content that is not *bona-fide* true, namely, persuasive and manipulative linguistic strategies. For each excerpt, we provide the speech (as an audio file), the manually revised transcription, and the speech metadata.
 
+
 ## Subtask 1. Implicit content detection
 The implicit content detection task consists of identifying the presence of questionable implicit content in speech excerpts. It is applied the full dataset of 2,637 excerpts split into training and test sets. Predictions will be evaluated through the F1-score.
 
@@ -124,6 +125,23 @@ An example of conventional implicature, along with its explanation:
 > (Luigi Di Maio, 2018)
 >
 > *Implica che tutti i governi dovrebbero rispettare i programmi elettorali, che non dovrebbero fare niente che non sia scritto nel programma elettorale.*
+
+
+### Dataset format
+
+IMPOLS dataset is released in tab-separated CSV format. The format is the same for each subtask and contains the following columns:
+
+- **id**: the unique id of the sentence;
+- **speaker**: the name of the speaker;
+- **year**: the year the speech was delivered;
+- **text**: the speech transcription, containing the **text to classify within an <s> tag** and a wide context;
+- **tag**: the annotation tag, that is
+  - {0,1} for subtask 1: the segment within <s> contains a *bona-fide* true implicit (1) or not (0);
+  - {IMP,PPP} for subtask 2: the segment within <s> contains an implicature (IMP) or a presupposition (PPP);
+  - {IMPcvrs,IMPconv,IMPgen} for subtask 3: the segment within <s> contains a particularized conversational implicature (IMPcvrs), a generalized conversational implicature (IMPgen), or a conventional implicature (IMPconv).
+
+An audio file in MP3 format is provided for each sentence and is named *id*.mp3
+
 
 ## References
 
