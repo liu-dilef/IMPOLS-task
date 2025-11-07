@@ -136,6 +136,7 @@ IMPOLS dataset is released in tab-separated CSV format. The format is the same f
 - **year**: the year the speech was delivered;
 - **text**: the speech transcription, containing the **text to classify within an <s> tag** and a wide context;
 - **tag**: the annotation tag, that is
+
   - {0,1} for subtask 1: the segment within <s> contains a *bona-fide* true implicit (1) or not (0);
   - {IMP,PPP} for subtask 2: the segment within <s> contains an implicature (IMP) or a presupposition (PPP);
   - {IMPcvrs,IMPconv,IMPgen} for subtask 3: the segment within <s> contains a particularized conversational implicature (IMPcvrs), a generalized conversational implicature (IMPgen), or a conventional implicature (IMPconv).
