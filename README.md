@@ -144,11 +144,12 @@ An audio file in MP3 format is provided for each sentence and is named *id*.mp3
 
 ## Baseline
 
+A baseline has been computed for each subtask: a simple zero-shot prompt on Qwen2.5-7B-Instruct model has been used on the test sets. F1 scores are reported in the table below.
 
 |  | **F1 score** |
 |:-----|------|
 | **Subtask 1** | 0.4602  |
-| **Subtask 2**  | 0.3352  |
+| **Subtask 2** | 0.3352  |
 | **Subtask 3** | 0.2942  |
 
 
