@@ -150,7 +150,7 @@ An audio file in MP3 format is provided for each sentence and is named *id*.mp3
 | **Subtask 1** | 0.4602  |
 | **Subtask 2**  | 0.3352  |
 | **Subtask 3** | 0.2942  |
-|:-----|------|
+
 
 ## References
 
