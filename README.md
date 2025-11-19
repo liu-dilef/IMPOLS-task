@@ -142,6 +142,15 @@ IMPOLS dataset is released in tab-separated CSV format. The format is the same f
 
 An audio file in MP3 format is provided for each sentence and is named *id*.mp3
 
+## Baseline
+
+
+|  | **F1 score** |
+|:-----|------|
+| **Subtask 1** | 0.4602  |
+| **Subtask 2**  | 0.3352  |
+| **Subtask 3** | 0.2942  |
+|:-----|------|
 
 ## References
 
