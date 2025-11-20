@@ -13,7 +13,7 @@
 
 ## News
 
-**Test data will be available here on December 1st**
+Test data will be available here on December 1st
 
 ---
 
