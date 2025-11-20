@@ -12,6 +12,15 @@
 - [Organizers and Contacts](#organizers-and-contacts)
 
 ## News
+
+**Test data will be available here on December 1st**
+
+---
+
+Baseline added [here](#baseline)
+
+---
+
 Text data is available [here](https://github.com/liu-dilef/IMPOLS-task/tree/main/data).
 Audio data can be accessed [here](https://drive.google.com/drive/folders/1FvA1Ij1wl2W5kvJ7hLAVv42zjaeKaqgX?usp=sharing).
 
