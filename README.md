@@ -33,7 +33,7 @@ Audio data can be accessed [here](https://drive.google.com/drive/folders/1FvA1Ij
 **Test sets**
 
 Text data is available [here](https://github.com/liu-dilef/IMPOLS-task/tree/main/data/test).
-Audio data can be accessed [here](https://drive.google.com/drive/---).
+Audio data can be accessed [here](https://drive.google.com/file/d/1nz3wvl6cCfQ6617x8k-osdnYI-XzowEp/view?usp=sharing).
 
 
 **Instructions for participants**
