@@ -40,7 +40,7 @@ Audio data can be accessed [here](https://drive.google.com/file/d/1nz3wvl6cCfQ66
 
 Please send your results using [this form](https://docs.google.com/forms/d/e/1FAIpQLSfIEEY4M5goGyolup09bkLGYxMhuI3nvQTWcJ4zuk7JDWe6XQ/viewform?usp=publish-editor)
 
-If you want to submit multiple runs, please fill the form for each run.
+If you want to submit multiple runs, please fill the form for each run. The deadline for results submission is **December 8th**.
 
 Contact the organizers for any question.
 
