@@ -13,6 +13,10 @@
 
 ## News
 
+**Labeled test data now available in data folder**
+
+---
+
 **Test data available!!**
 Please follow the instructions in the following section.
 
