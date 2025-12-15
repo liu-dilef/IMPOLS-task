@@ -14,6 +14,7 @@
 ## News
 
 **Labeled test data now available in data folder**
+See full dataset [here](https://github.com/liu-dilef/IMPOLS-task/tree/main/data)
 
 ---
 
