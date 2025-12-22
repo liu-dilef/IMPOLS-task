@@ -2,12 +2,16 @@
 
 ## Table of Contents
 - [News](#news)
+- [Dataset release](#dataset-release)
 - [Task description](#task-description)
 - [Goal](#goal)
 - [Data](#data)
 - [Subtask 1. Implicit content detection](#subtask-1-implicit-content-detection)
 - [Subtask 2. Implicit classification](#subtask-1-implicit-classification)
 - [Subtask 3. Implicatures classification](#subtask-3-implicatures-classification)
+- [Dataset format](#dataset-format)
+- [Baseline](#baseline)
+- [Results](#results)
 - [References](#references)
 - [Organizers and Contacts](#organizers-and-contacts)
 
