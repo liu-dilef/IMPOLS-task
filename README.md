@@ -188,6 +188,14 @@ A baseline has been computed for each subtask: a simple zero-shot prompt on Qwen
 | **Subtask 2** | 0.3352  |
 | **Subtask 3** | 0.2942  |
 
+## Results
+
+| **Team** | **F1 subtask 1** | **F1 subtask 2** | **F1 subtask 3** |
+|:-----|------|------|------|
+| **kenji-endo** | 0.9496  | 0.2226  | - |
+| **RES2** | 0.9089  | 0.8762  | 0.6369  |
+| **Baseline** | 0.4602  | 0.3352  | 0.2942  |
+
 
 ## References
 
