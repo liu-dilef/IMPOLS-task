@@ -13,6 +13,12 @@
 
 ## News
 
+**IMPOLS task final results**
+
+Task results available [here](#results)
+
+---
+
 **Labeled test data now available in data folder**
 
 See full dataset [here](https://github.com/liu-dilef/IMPOLS-task/tree/main/data)
