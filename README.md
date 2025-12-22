@@ -2,14 +2,12 @@
 
 ## Table of Contents
 - [News](#news)
-- [Dataset release](#dataset-release)
 - [Task description](#task-description)
 - [Goal](#goal)
-- [Data](#data)
+- [Dataset](#dataset)
 - [Subtask 1. Implicit content detection](#subtask-1-implicit-content-detection)
 - [Subtask 2. Implicit classification](#subtask-1-implicit-classification)
 - [Subtask 3. Implicatures classification](#subtask-3-implicatures-classification)
-- [Dataset format](#dataset-format)
 - [Baseline](#baseline)
 - [Results](#results)
 - [References](#references)
@@ -38,7 +36,32 @@ Baseline added [here](#baseline)
 
 ---
 
-## Dataset Release
+## Task description
+The task IMPOLS focuses on the automatic recognition of implicit content in political speech. Given an utterance in a context, we ask participants to develop a system capable of detecting and classifying the implicit contents that are non-*bona fide* true: these are implicit, questionable contents that are not conveyed in good faith but are still understood as true, albeit non-explicitly, within a given context. This kind of content is widely employed in political communication as a strategic tool to convey messages implicitly, thereby enabling the transmission of potentially manipulative content without overt expression.
+
+We propose three subtasks: 
+1. a **binary detection task**, in which the systems are asked to detect the presence of questionable implicit contents in speech excerpts;
+2. a **binary classification task**, in which the systems are asked to discriminate between two types of implicit contents: implicatures and presuppositions;
+3. a **multiclass classification task**, in which the systems have to identify if implicatures are particularized conversational, generalized conversational, or conventional.
+
+IMPOLS is a monolingual (Italian) multimodal task: both the speech and the manually revised transcription will be provided to the participants in the three subtasks.
+
+## Goal
+IMPOLS aims to challenge machines to deal with complex, pragmatic phenomena that are difficult to disentangle, just as they are for humans. For this reason, the task is intriguing, allowing the development of systems that could help citizens to evaluate rhetorical communication strategies in politics critically.
+
+Despite the wide amount of research on this topic, much existing work relies on English synthetic stimuli, limiting ecological validity and language variety. This challenge addresses the gap by using Italian semi-spontaneous political discourse, which captures the interplay of rhetoric, context, and speaker intent.
+
+## Dataset
+
+The dataset used for this task is derived from the [IMPAQTS corpus](https://impaqts.dilef.unifi.it), a large-scale, multimodal collection of Italian political speeches systematically annotated for pragmatic implicitness.
+The IMPAQTS corpus is one of the most comprehensive resources for studying Italian political discourse to date: it includes speeches from prominent Italian political figures, spanning the entire period of the Italian Republic from 1946 to 2023. Each speech is manually annotated for various forms of non-explicit persuasion, including presuppositions, implicatures, vague expressions, and topicalizations. 
+Speech transcriptions are manually revised and time-aligned to the original audio/video source, making IMPAQTS a fully multimodal resource for the analysis of political speech.
+
+The dataset used for this task contains 2,637 excerpts from IMPAQTS, divided in this way: 1,332 excerpts with questionable implicit contents and 1,305 without them; half of the excerpts with implicit contents (666) contain implicatures and the other half contain presuppositions; in turn, implicatures are subdivided into three classes: particularized conversational, generalized conversational, and conventional implicatures, each one consisting of 222 elements. 
+
+Data are extracted from public speeches freely available on YouTube. Labels used in the tasks refer exclusively to implicit content that is not *bona-fide* true, namely, persuasive and manipulative linguistic strategies. For each excerpt, we provide the speech (as an audio file), the manually revised transcription, and the speech metadata.
+
+### Dataset Release
 
 **Training sets**
 
@@ -60,31 +83,20 @@ If you want to submit multiple runs, please fill the form for each run. The dead
 
 Contact the organizers for any question.
 
+### Dataset format
 
-## Task description
-The task IMPOLS focuses on the automatic recognition of implicit content in political speech. Given an utterance in a context, we ask participants to develop a system capable of detecting and classifying the implicit contents that are non-*bona fide* true: these are implicit, questionable contents that are not conveyed in good faith but are still understood as true, albeit non-explicitly, within a given context. This kind of content is widely employed in political communication as a strategic tool to convey messages implicitly, thereby enabling the transmission of potentially manipulative content without overt expression.
+IMPOLS dataset is released in tab-separated CSV format. The format is the same for each subtask and contains the following columns:
 
-We propose three subtasks: 
-1. a **binary detection task**, in which the systems are asked to detect the presence of questionable implicit contents in speech excerpts;
-2. a **binary classification task**, in which the systems are asked to discriminate between two types of implicit contents: implicatures and presuppositions;
-3. a **multiclass classification task**, in which the systems have to identify if implicatures are particularized conversational, generalized conversational, or conventional.
+- **id**: the unique id of the sentence;
+- **speaker**: the name of the speaker;
+- **year**: the year the speech was delivered;
+- **text**: the speech transcription, containing the **text to classify within an \<s\> tag** and a wide context;
+- **tag**: the annotation tag, that is
+  - {0,1} for subtask 1: the segment within \<s\> contains a *bona-fide* true implicit (1) or not (0);
+  - {IMP,PPP} for subtask 2: the segment within \<s\> contains an implicature (IMP) or a presupposition (PPP);
+  - {IMPcvrs,IMPconv,IMPgen} for subtask 3: the segment within \<s\> contains a particularized conversational implicature (IMPcvrs), a generalized conversational implicature (IMPgen), or a conventional implicature (IMPconv).
 
-IMPOLS is a monolingual (Italian) multimodal task: both the speech and the manually revised transcription will be provided to the participants in the three subtasks.
-
-## Goal
-IMPOLS aims to challenge machines to deal with complex, pragmatic phenomena that are difficult to disentangle, just as they are for humans. For this reason, the task is intriguing, allowing the development of systems that could help citizens to evaluate rhetorical communication strategies in politics critically.
-
-Despite the wide amount of research on this topic, much existing work relies on English synthetic stimuli, limiting ecological validity and language variety. This challenge addresses the gap by using Italian semi-spontaneous political discourse, which captures the interplay of rhetoric, context, and speaker intent.
-
-## Data
-
-The dataset used for this task is derived from the [IMPAQTS corpus](https://impaqts.dilef.unifi.it), a large-scale, multimodal collection of Italian political speeches systematically annotated for pragmatic implicitness.
-The IMPAQTS corpus is one of the most comprehensive resources for studying Italian political discourse to date: it includes speeches from prominent Italian political figures, spanning the entire period of the Italian Republic from 1946 to 2023. Each speech is manually annotated for various forms of non-explicit persuasion, including presuppositions, implicatures, vague expressions, and topicalizations. 
-Speech transcriptions are manually revised and time-aligned to the original audio/video source, making IMPAQTS a fully multimodal resource for the analysis of political speech.
-
-The dataset used for this task contains 2,637 excerpts from IMPAQTS, divided in this way: 1,332 excerpts with questionable implicit contents and 1,305 without them; half of the excerpts with implicit contents (666) contain implicatures and the other half contain presuppositions; in turn, implicatures are subdivided into three classes: particularized conversational, generalized conversational, and conventional implicatures, each one consisting of 222 elements. 
-
-Data are extracted from public speeches freely available on YouTube. Labels used in the tasks refer exclusively to implicit content that is not *bona-fide* true, namely, persuasive and manipulative linguistic strategies. For each excerpt, we provide the speech (as an audio file), the manually revised transcription, and the speech metadata.
+An audio file in MP3 format is provided for each sentence and is named *id*.mp3
 
 
 ## Subtask 1. Implicit content detection
@@ -171,22 +183,6 @@ An example of conventional implicature, along with its explanation:
 > (Luigi Di Maio, 2018)
 >
 > *Implica che tutti i governi dovrebbero rispettare i programmi elettorali, che non dovrebbero fare niente che non sia scritto nel programma elettorale.*
-
-
-## Dataset format
-
-IMPOLS dataset is released in tab-separated CSV format. The format is the same for each subtask and contains the following columns:
-
-- **id**: the unique id of the sentence;
-- **speaker**: the name of the speaker;
-- **year**: the year the speech was delivered;
-- **text**: the speech transcription, containing the **text to classify within an \<s\> tag** and a wide context;
-- **tag**: the annotation tag, that is
-  - {0,1} for subtask 1: the segment within \<s\> contains a *bona-fide* true implicit (1) or not (0);
-  - {IMP,PPP} for subtask 2: the segment within \<s\> contains an implicature (IMP) or a presupposition (PPP);
-  - {IMPcvrs,IMPconv,IMPgen} for subtask 3: the segment within \<s\> contains a particularized conversational implicature (IMPcvrs), a generalized conversational implicature (IMPgen), or a conventional implicature (IMPconv).
-
-An audio file in MP3 format is provided for each sentence and is named *id*.mp3
 
 ## Baseline
 
